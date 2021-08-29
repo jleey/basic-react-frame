@@ -5,7 +5,11 @@ import {
 import './App.scss';
 import Home from './views/Home'
 import Styleguide from './views/Styleguide'
-import Header from './components/Header/Header'
+import Header from './components/Header/Header';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 function App() {
   return (

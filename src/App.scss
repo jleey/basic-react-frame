@@ -1,9 +1,10 @@
-
+@import "./assets/scss/normalize.scss";
 @import "./assets/scss/mixins.scss";
 @import "./assets/scss/colors.scss";
 @import "./assets/scss/typo.scss";
 @import "./assets/scss/variables.scss";
-@import "./assets/scss/normalize.scss";
 @import "./assets/scss/global.scss";
 @import "./components/Header/Header.scss";
 @import "./components/Navigation/Navigation.scss";
+@import "./components/Tile/Tile.scss";
+@import "./components/Button/Button.scss";

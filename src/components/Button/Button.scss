@@ -1,0 +1,21 @@
+.btn{
+    background-color:$primary;
+    padding:.75rem;
+    min-width:12rem;
+    display:inline-flex;
+    color:#fff;
+    border-radius:5px;
+    &:hover{
+        color:$grey-light
+    }
+    font-family:$font-regular-bold;
+&--ghost{
+    border:2px solid $primary;
+    background-color:transparent;
+
+}
+&--secondary{
+    background-color:$secondary;
+    
+}
+}
