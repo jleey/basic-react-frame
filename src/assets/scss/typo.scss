@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: PlayFair;
+    src: url('../fonts/PlayfairDisplay-VariableFont_wght.woff2');
+}
+@font-face {
+    font-family: SourceSansPro;
+    src: url('../fonts/SourceSansPro-Regular.woff2');
+}
+a{
+    font-family:PlayFair;
+    text-decoration:none;
+    color:$primary;
+    transition: color 300ms linear;
+    &:hover{
+        color:$secondary
+    }
+}
+$font-regular:SourceSansPro, sans-serif, arial, helvetica;
+$font-serif:PlayFair, 'times new roman', serif;
+h1,h2,h3,h4,h5,h6{
+font-family:$font-serif;
+
+}
+
